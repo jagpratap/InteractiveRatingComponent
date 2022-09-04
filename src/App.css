@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --primary_orange: hsl(25, 97%, 53%);
+  --neutral_light_dark_blue: hsl(213, 19%, 25%);
+  --neutral_dark_blue: hsl(213, 19%, 18%);
+  --neutral_very_dark_blue: hsl(216, 12%, 8%);
+  --neutral_light_grey: hsl(217, 12%, 63%);
+  --neutral_medium_grey: hsl(216, 12%, 54%);
+  --neutral_white: hsl(0, 0%, 100%);
+
+  /* Font family */
+  --overpass_bold: "Overpass, Bold";
+  --overpass_regular: "Overpass, Regular";
+
+  /* Border radius */
+  --border_radius: 2rem;
+}
+
+body {
+  font-size: 1rem;
+  background-color: var(--neutral_very_dark_blue);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 25rem;
+  height: 25rem;
+  background-color: var(--neutral_dark_blue);
+  border-radius: var(--border_radius);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  font-family: var(--overpass_regular);
+  color: var(--neutral_white);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

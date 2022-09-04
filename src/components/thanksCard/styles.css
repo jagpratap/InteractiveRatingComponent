@@ -1,0 +1,20 @@
+.thanks-card-body {
+  align-items: center;
+}
+
+.thanks-card-ratings {
+  background-color: var(--neutral_light_dark_blue);
+  color: var(--primary_orange);
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  border-radius: var(--border_radius);
+}
+
+.thanks-card-title {
+  font-family: var(--overpass_bold);
+}
+
+.thanks-card-text {
+  text-align: center;
+  color: var(--neutral_medium_grey);
+}

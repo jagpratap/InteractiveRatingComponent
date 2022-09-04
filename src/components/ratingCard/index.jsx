@@ -46,7 +46,7 @@ const RatingCard = ({ rating, onSetRating, onSubmit }) => (
         className="rating-card-submit-button"
         onClick={onSubmit}
       >
-        <p>Submit</p>
+        Submit
       </button>
     </div>
   </div>

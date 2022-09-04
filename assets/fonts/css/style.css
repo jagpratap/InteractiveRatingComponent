@@ -1,0 +1,16 @@
+/*--------------------------OVERPASS--------------------------*/
+
+/* 700 */
+@font-face {
+  font-family: "Overpass, Bold";
+  src: url("../families/overpass/Overpass-Bold.ttf") format("truetype");
+}
+
+/* 400 */
+@font-face {
+  font-family: "Overpass, Regular";
+  src: url("../families/overpass/Overpass-Regular.ttf") format("truetype");
+}
+
+
+/*--------------------------OVERPASS--------------------------*/

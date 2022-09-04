@@ -2,6 +2,7 @@
   "name": "Interactive-rating-component",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jagpratap.github.io/InteractiveRatingComponent",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -13,7 +14,9 @@
   },
   "scripts": {
     "start": "set PORT=4000 && react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build && cp build/index.html build/404.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
